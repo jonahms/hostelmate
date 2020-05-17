@@ -1,0 +1,23 @@
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+  }
+  label {
+    grid-column: 1 / 2;
+  }
+  
+  input,
+  .button {
+    grid-column: 2 / 3;
+    
+  }
+  
+  .additem{
+    /*display: flex;*/
+    margin: 50px;
+    color: white;
+    padding: 50px;
+    background-color: rgba(23, 23, 46, 0.945);
+    align-content: center;
+  }
